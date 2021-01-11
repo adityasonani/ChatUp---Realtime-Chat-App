@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatUp</title>
+    <link rel = "icon" href = "logo.png" type = "image/x-icon"> 
+    <script defer src="http://localhost:5500/socket.io/socket.io.js"></script>
+    <script defer src='/js/client.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="logo.png" alt="ourlogo">
+        <h2 style="margin-top: 10px;font-size: 20px;text-align: center;
+        font-family: 'Times New Roman', Times, serif;color: crimson;">ChatUp With The World!</h2>
+    </nav>
+    <div class="container">
+        <h4 style="text-align: center;">START THE CHAT WHEN SOMEONE JOINS</h4>
+    </div>
+    <div class="send">
+        <form action="" id="send-container">
+            <input class="text" name="messageInp" id="messageInp"></input>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
